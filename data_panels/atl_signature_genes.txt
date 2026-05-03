@@ -1,0 +1,19 @@
+# ATL hallmark / Treg-like markers for cluster annotation
+CADM1
+CD4
+CD25
+IL2RA
+FOXP3
+CCR4
+CTLA4
+TIGIT
+ICOS
+HLA-DRB1
+HBZ
+TAX
+IKZF2
+PD1
+PDCD1
+CD7
+GATA3
+BATF

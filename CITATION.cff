@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this software or analyses, please cite the manuscript and this repository."
+title: "ATL-osteolytic-transcriptomics: code and analyses for single-cell and bulk transcriptomic dissection of osteolytic programs in ATL"
+type: software
+authors:
+  - given-names: Meishun
+    family-names: Weng
+    affiliation: "Ningde Clinical Medical College of Fujian Medical University; Ningde Municipal Hospital of Ningde Normal University"
+    orcid: "https://orcid.org/0009-0004-3978-6394"
+    email: wengmeishun2026@163.com
+  - given-names: Xingtao
+    family-names: Zhan
+    affiliation: "Ningde Clinical Medical College of Fujian Medical University; Ningde Municipal Hospital of Ningde Normal University"
+  - given-names: Renli
+    family-names: Chen
+    affiliation: "Ningde Municipal Hospital of Ningde Normal University"
+  - given-names: YuQing
+    family-names: Wang
+    affiliation: "Ningde Municipal Hospital of Ningde Normal University"
+  - given-names: Xiaojuan
+    family-names: Gao
+    affiliation: "Ningde Municipal Hospital of Ningde Normal University"
+    orcid: "https://orcid.org/0009-0005-2475-6114"
+    email: gyinxin2005@163.com
+preferred-citation:
+  type: article
+  title: "Single-cell and bulk transcriptomic dissection of osteolytic programs in adult T-cell leukemia/lymphoma reveals tumour-T-cell-intrinsic and Treg-like contributions to bone destruction, supported by serum bone turnover phenotypes in a Chinese cohort"
+  authors:
+    - given-names: Meishun
+      family-names: Weng
+    - given-names: Xingtao
+      family-names: Zhan
+    - given-names: Renli
+      family-names: Chen
+    - given-names: YuQing
+      family-names: Wang
+    - given-names: Xiaojuan
+      family-names: Gao
+  year: 2026
+  journal: "Frontiers in Immunology"
+  url: "https://www.frontiersin.org/journals/immunology"
+license: MIT
+repository-code: "https://github.com/wengmeishun123/ATL-osteolytic-transcriptomics"
+keywords:
+  - adult T-cell leukemia
+  - HTLV-1
+  - hypercalcemia
+  - PTHrP
+  - RANKL
+  - single-cell RNA sequencing
+  - cell-type deconvolution
+  - Connectivity Map
+  - drug repurposing
+  - bone turnover markers

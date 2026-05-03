@@ -1,0 +1,23 @@
+# ATL osteolytic core gene panel - based on Choi 2009 / Xia 2013 / Xiang 2019 / RANKL-PTHrP-Wnt5a axis
+# One gene per line; HGNC symbols; for use with AddModuleScore / UCell / GSVA
+PTHLH
+TNFSF11
+TNFRSF11B
+WNT5A
+DKK1
+SOST
+CASR
+CYP27B1
+MMP9
+IL6
+CCL3
+CCL4
+CTSK
+RANK
+TNFRSF11A
+TRAP
+ACP5
+SPP1
+VDR
+JAG1
+MEPE

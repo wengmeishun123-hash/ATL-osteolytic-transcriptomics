@@ -1,0 +1,49 @@
+{
+  "title": "ATL-osteolytic-transcriptomics: Single-cell and bulk transcriptomic dissection of osteolytic programs in adult T-cell leukemia/lymphoma",
+  "description": "<p>This repository contains the analysis code, gene panels, example results, and documentation accompanying the manuscript <em>Single-cell and bulk transcriptomic dissection of osteolytic programs in adult T-cell leukemia/lymphoma reveals tumour-T-cell-intrinsic and Treg-like contributions to bone destruction, supported by serum bone turnover phenotypes in a Chinese cohort</em> by Weng et al. (Frontiers in Immunology, 2026).</p><p>Includes: (i) Module A scRNA-seq cell-of-origin analysis of GSE195674 with Seurat v5; (ii) Module B BayesPrism bulk deconvolution of GSE33615 + GSE55851 with MuSiC cross-method validation; (iii) Module C DESeq2 differential expression for ATL+/− T-cell lines from CCLE Public 24Q4 with ProfileID-to-ModelID validation against DepMap OmicsProfiles; (iv) Module D Connectivity Map / LINCS triple-tool reverser screening (clue.io, Enrichr LINCS, L1000CDS²) yielding 41 ATL-relevant convergent candidates spanning four mechanistic themes; (v) clinical descriptive and survival analysis of a 29-patient Chinese ATL cohort with comprehensive serum bone turnover profiling.</p>",
+  "creators": [
+    {"name": "Weng, Meishun", "affiliation": "Ningde Clinical Medical College of Fujian Medical University; Ningde Municipal Hospital of Ningde Normal University", "orcid": "0009-0004-3978-6394"},
+    {"name": "Zhan, Xingtao", "affiliation": "Ningde Clinical Medical College of Fujian Medical University; Ningde Municipal Hospital of Ningde Normal University"},
+    {"name": "Chen, Renli", "affiliation": "Ningde Municipal Hospital of Ningde Normal University"},
+    {"name": "Wang, YuQing", "affiliation": "Ningde Municipal Hospital of Ningde Normal University"},
+    {"name": "Gao, Xiaojuan", "affiliation": "Ningde Municipal Hospital of Ningde Normal University", "orcid": "0009-0005-2475-6114"}
+  ],
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "adult T-cell leukemia",
+    "ATL",
+    "HTLV-1",
+    "humoral hypercalcemia of malignancy",
+    "PTHrP",
+    "RANKL",
+    "single-cell RNA sequencing",
+    "scRNA-seq",
+    "BayesPrism",
+    "cell-type deconvolution",
+    "Connectivity Map",
+    "drug repurposing",
+    "bone turnover markers",
+    "P1NP",
+    "beta-CTX",
+    "osteocalcin",
+    "Chinese cohort",
+    "Fujian"
+  ],
+  "communities": [
+    {"identifier": "biomedical-research"}
+  ],
+  "language": "eng",
+  "publication_date": "2026-04-30",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {"identifier": "10.3389/fimmu.2022.918654", "relation": "isDerivedFrom", "resource_type": "dataset", "scheme": "doi"},
+    {"identifier": "10.1182/blood-2009-blood-02-189183", "relation": "isDerivedFrom", "resource_type": "dataset", "scheme": "doi"},
+    {"identifier": "https://github.com/wengmeishun123/ATL-osteolytic-transcriptomics", "relation": "isSupplementTo", "resource_type": "software", "scheme": "url"}
+  ],
+  "subjects": [
+    {"term": "Hematology", "identifier": "https://id.loc.gov/authorities/subjects/sh85060227"},
+    {"term": "Bioinformatics", "identifier": "https://id.loc.gov/authorities/subjects/sh2003001100"}
+  ]
+}

@@ -1,0 +1,39 @@
+# Large data files (load from public repositories instead)
+*.rds
+*.h5ad
+*.tar
+*.tar.gz
+*.gctx
+*.bigWig
+*.bam
+*.fastq*
+*.idx
+*.pickle
+
+# Sensitive clinical data — never commit
+clinical_clean_wide.csv
+clinical_core_table.csv
+ATL原始数据收集表*.xlsx
+*_PII*.csv
+
+# Temporary / build files
+__pycache__/
+.Rhistory
+.RData
+.Renviron
+*.log
+*.pdf
+*.png
+node_modules/
+.DS_Store
+*.swp
+
+# OS
+Thumbs.db
+ehthumbs.db
+.Spotlight-V100
+.Trashes
+
+# Editor
+.vscode/
+.idea/
