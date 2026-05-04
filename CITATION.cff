@@ -41,6 +41,7 @@ preferred-citation:
   url: "https://www.frontiersin.org/journals/immunology"
 license: MIT
 repository-code: "https://github.com/wengmeishun123-hash/ATL-osteolytic-transcriptomics"
+doi: "10.5281/zenodo.20017961"
 keywords:
   - adult T-cell leukemia
   - HTLV-1

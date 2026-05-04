@@ -5,7 +5,7 @@
 Weng M, Zhan X, Chen R, Wang Y, Gao X. *Frontiers in Immunology* 2026 (submitted).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Zenodo](https://img.shields.io/badge/Zenodo-DOI%20pending-blue)](https://zenodo.org/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20017961.svg)](https://doi.org/10.5281/zenodo.20017961)
 
 ## Overview
 
