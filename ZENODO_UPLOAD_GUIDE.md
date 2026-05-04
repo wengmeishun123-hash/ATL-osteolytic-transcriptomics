@@ -13,7 +13,7 @@ This is the easiest route: every GitHub release automatically generates a Zenodo
 
 ### Step 1.2 — Toggle the repository
 1. After authorization, you'll see a list of your GitHub repositories
-2. Find `wengmeishun123/ATL-osteolytic-transcriptomics`
+2. Find `wengmeishun123-hash/ATL-osteolytic-transcriptomics`
 3. Toggle the switch to **On**
 4. Zenodo will now watch this repository for new releases
 

@@ -48,7 +48,7 @@ git commit -m "Initial commit: ATL osteolytic transcriptomics analysis pipeline 
 ## Step 4 — Create remote repository (one command)
 
 ```powershell
-gh repo create wengmeishun123/ATL-osteolytic-transcriptomics --public `
+gh repo create wengmeishun123-hash/ATL-osteolytic-transcriptomics --public `
    --description "Single-cell and bulk transcriptomic dissection of osteolytic programs in adult T-cell leukemia/lymphoma" `
    --homepage "https://www.frontiersin.org/journals/immunology" `
    --source=. --push
@@ -60,12 +60,12 @@ This will:
 3. Push the `main` branch
 4. Configure default branch
 
-After completion: visit https://github.com/wengmeishun123/ATL-osteolytic-transcriptomics
+After completion: visit https://github.com/wengmeishun123-hash/ATL-osteolytic-transcriptomics
 
 ## Step 5 — Add Zenodo integration (for DOI on release)
 
 1. Go to https://zenodo.org/account/settings/github/ and authorize Zenodo
-2. Toggle "On" for the `wengmeishun123/ATL-osteolytic-transcriptomics` repository
+2. Toggle "On" for the `wengmeishun123-hash/ATL-osteolytic-transcriptomics` repository
 3. On GitHub, create release: `gh release create v1.0 --title "v1.0 — manuscript submission" --notes "Initial public release accompanying Frontiers in Immunology submission"`
 4. Zenodo will automatically create a DOI for v1.0
 5. Replace `[ZENODO_DOI]` placeholder in manuscript with the assigned DOI (format: 10.5281/zenodo.XXXXXXX)
@@ -95,8 +95,8 @@ git push
 - Try `gh auth login --hostname github.com --git-protocol https`
 
 ### Repository name conflict
-If `wengmeishun123/ATL-osteolytic-transcriptomics` already exists:
-- Either delete the old one: `gh repo delete wengmeishun123/ATL-osteolytic-transcriptomics --yes`
+If `wengmeishun123-hash/ATL-osteolytic-transcriptomics` already exists:
+- Either delete the old one: `gh repo delete wengmeishun123-hash/ATL-osteolytic-transcriptomics --yes`
 - Or pick a different name in Step 4
 
 ### Push rejected: large file
