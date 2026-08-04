@@ -18,11 +18,10 @@ ATL-osteolytic-transcriptomics/
 ├── R/                              # R analysis scripts
 │   ├── module_A_scRNA_GSE195674.R          # Cluster annotation + osteolytic module
 │   ├── module_B_BayesPrism_deconv.R        # GSE33615 / GSE55851 deconvolution
+│   ├── module_B_GSE55851_progression.R     # HTLV-1 progression cohort analysis
 │   ├── module_B_MuSiC_crossval.R           # Cross-method validation
-│   ├── module_C_DESeq2_celline.R           # ATL+/− DE + CMap input
-│   └── clinical_KM_Cox.R                    # 29-patient clinical analysis
+│   └── module_C_DESeq2_celline.R           # ATL+/− DE + CMap input
 ├── python/                         # Python analysis scripts
-│   ├── clinical_analysis.py                # Clinical descriptive + Wilcoxon
 │   ├── cmap_convergence_v4.py              # 3-tool reverser convergence
 │   ├── candidate_GSEA_NES_proxy.py         # Section 3.5 NES proxy approximation
 │   └── profileid_validation.py             # DepMap OmicsProfiles validation
@@ -32,8 +31,15 @@ ATL-osteolytic-transcriptomics/
 │   └── atl_signature_genes.txt
 ├── results_examples/               # Anonymized example outputs
 │   ├── GSE33615_celltype_fractions_refined.csv
-│   ├── cross_method_concordance_MuSiC_vs_BayesPrism.csv
-│   └── cmap_convergence_results_v4.csv
+│   ├── GSE33615_fractions_ATL_vs_Control_wilcox.csv
+│   ├── GSE55851_celltype_fractions.csv
+│   ├── atl_cell_line_mapping_final.csv
+│   ├── cmap_convergence_results_v4.csv
+│   ├── cmap_input_down.txt
+│   ├── cmap_input_down_l1000.txt
+│   ├── cmap_input_up.txt
+│   ├── cmap_input_up_l1000.txt
+│   └── cross_method_concordance_MuSiC_vs_BayesPrism.csv
 ├── docs/                           # Methods documentation
 │   ├── 00_INSTALL_Windows.md       # Environment setup
 │   ├── RUN_ORDER.md                # Pipeline execution order
@@ -83,10 +89,6 @@ Rscript R/module_C_DESeq2_celline.R
 # Module D: CMap convergence analysis
 python python/cmap_convergence_v4.py
 python python/candidate_GSEA_NES_proxy.py
-
-# Clinical analysis
-python python/clinical_analysis.py
-Rscript R/clinical_KM_Cox.R
 ```
 
 See `docs/RUN_ORDER.md` for detailed prerequisites and expected outputs per module.
@@ -99,7 +101,7 @@ Public datasets analyzed in this study:
 - GSE55851 — HTLV-1 progression cohort (9 carriers + 12 ATL)
 - CCLE / DepMap Public 24Q4 — RNA-seq for 7 T-cell lines
 
-29-patient Chinese ATL clinical cohort (de-identified) is available from the corresponding author upon reasonable request, subject to IRB approval (Ningde Municipal Hospital of Ningde Normal University, approval No. NSYKYLL-2026-145) and a formal data-sharing agreement.
+29-patient Chinese ATL clinical cohort (de-identified) is available from the corresponding author upon reasonable request, subject to IRB approval (Ningde Municipal Hospital, approval No. NSYKYLL-2026-59) and a formal data-sharing agreement.
 
 ## Citation
 
@@ -111,7 +113,7 @@ A `CITATION.cff` file is provided.
 
 ## Contact
 
-**Corresponding author:** Xiaojuan Gao, MD (gyinxin2005@163.com), Ningde Municipal Hospital of Ningde Normal University.
+**Corresponding author:** Xiaojuan Gao, MS (gyinxin2005@163.com), Ningde Municipal Hospital.
 
 **First-author code maintainer:** Meishun Weng, MS (wengmeishun2026@163.com).
 

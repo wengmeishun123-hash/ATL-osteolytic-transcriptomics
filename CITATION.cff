@@ -5,21 +5,21 @@ type: software
 authors:
   - given-names: Meishun
     family-names: Weng
-    affiliation: "Ningde Clinical Medical College of Fujian Medical University; Ningde Municipal Hospital of Ningde Normal University"
+    affiliation: "Ningde Clinical Medical College of Fujian Medical University; Ningde Municipal Hospital"
     orcid: "https://orcid.org/0009-0004-3978-6394"
     email: wengmeishun2026@163.com
   - given-names: Xingtao
     family-names: Zhan
-    affiliation: "Ningde Clinical Medical College of Fujian Medical University; Ningde Municipal Hospital of Ningde Normal University"
+    affiliation: "Ningde Clinical Medical College of Fujian Medical University; Ningde Municipal Hospital"
   - given-names: Renli
     family-names: Chen
-    affiliation: "Ningde Municipal Hospital of Ningde Normal University"
+    affiliation: "Ningde Municipal Hospital"
   - given-names: YuQing
     family-names: Wang
-    affiliation: "Ningde Municipal Hospital of Ningde Normal University"
+    affiliation: "Ningde Municipal Hospital"
   - given-names: Xiaojuan
     family-names: Gao
-    affiliation: "Ningde Municipal Hospital of Ningde Normal University"
+    affiliation: "Ningde Municipal Hospital"
     orcid: "https://orcid.org/0009-0005-2475-6114"
     email: gyinxin2005@163.com
 preferred-citation:
